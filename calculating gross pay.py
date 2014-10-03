@@ -10,9 +10,9 @@ overtime_pay = hourly_pay * 1.5
 
 total_pay = hours * overtime_pay
 
-gross_pay = hours *hourly_pay
+gross_pay = hours * hourly_pay
 
-if hours > 40:
+if hours >= 40:
     print("Your total pay is £{0}".format(total_pay))
 else:
     print("Your total pay is £{0}".format(gross_pay))
